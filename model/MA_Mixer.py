@@ -176,10 +176,6 @@ class StateDynamicsRouter(nn.Module):
 
 
 class StateTransitionConsistencyRouter(nn.Module):
-    """
-    KDD-level State Dynamics Router:
-    routing based on state-transition consistency
-    """
 
     def __init__(self, hidden_dim):
         super().__init__()
